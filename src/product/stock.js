@@ -177,9 +177,11 @@ module.exports.GetStocksExpireInWeeks = (req, res) => {
 
         dbModels.stock.findAll({
             where: {
-                expireAt: {
-                    [Sequelize.Op.lt]: newDate
-                }
+                [Sequelize.Op.and]:[{
+                    expireAt: {
+                        [Sequelize.Op.lt]: newDate
+                    }
+                }, {user: user.email}]
             }
         }).then((data) => {
             res.send(response.Success("Fetching expirey Stocks in number of weeks successfull.", data));
@@ -203,9 +205,11 @@ module.exports.GetStocksExpireInMonths = (req, res) => {
 
         dbModels.stock.findAll({
             where: {
-                expireAt: {
-                    [Sequelize.Op.lt]: newDate
-                }
+                [Sequelize.Op.and]:[{
+                    expireAt: {
+                        [Sequelize.Op.lt]: newDate
+                    }
+                }, {user: user.email}]
             }
         }).then((data) => {
             res.send(response.Success("Fetching expirey Stocks in number of months successfull.", data));
@@ -229,9 +233,11 @@ module.exports.GetStocksExpireInDays = (req, res) => {
 
         dbModels.stock.findAll({
             where: {
-                expireAt: {
-                    [Sequelize.Op.lt]: newDate
-                }
+                [Sequelize.Op.and]:[{
+                    expireAt: {
+                        [Sequelize.Op.lt]: newDate
+                    }
+                }, {user: user.email}]
             }
         }).then((data) => {
             res.send(response.Success("Fetching expirey Stocks in number of days successfull.", data));
