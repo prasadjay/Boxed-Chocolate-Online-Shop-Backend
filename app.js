@@ -30,6 +30,8 @@ app.post('/app/login', login.Login);
 app.get('/app/global/items', item.GetAllItems);
 //Order product
 app.post('/app/global/order', order.PlaceOrder);
+app.get('/app/global/order/:orderId', order.GetOrderById);
+app.get('/app/global/order', order.GetAllOrders);
 
 //Endponts for Sellers on Items
 app.get('/app/item/:itemId', item.GetItemByID); //Get my item by id

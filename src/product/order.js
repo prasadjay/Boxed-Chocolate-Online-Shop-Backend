@@ -100,3 +100,38 @@ module.exports.PlaceOrder = (req, res) => {
         res.send(response.Error(err.message, err));
     })
 }
+
+module.exports.GetAllOrders = (req, res) => {
+    auth.ValidateJWT(req).then((data) => {
+        dbModels.order.findAll({}).then((data) => {
+            res.send(response.Success("Fetching all orders successfull.", data));
+        }).catch((err) => {
+            res.status(400);
+            res.send(response.Error(err.message, err));
+        })
+
+    }).catch((err) => {
+        res.status(400);
+        res.send(response.Error(err.message, err.data));
+    });
+}
+
+module.exports.GetOrderById = (req, res) => {
+    auth.ValidateJWT(req).then((data) => {
+
+        dbModels.order.findAll({
+            where: {
+                orderId: req.params.orderId
+            }
+        }).then((data) => {
+            res.send(response.Success("Fetching order by ID successfull.", data));
+        }).catch((err) => {
+            res.status(400);
+            res.send(response.Error(err.message, err));
+        })
+
+    }).catch((err) => {
+        res.status(400);
+        res.send(response.Error(err.message, err.data));
+    });
+}

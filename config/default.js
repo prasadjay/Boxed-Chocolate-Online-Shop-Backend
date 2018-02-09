@@ -1,7 +1,7 @@
 module.exports = {
     "db":
         {
-            "type" : "mysql",
+            "type" : "mysql", //mysql or postgres
             "host": "localhost",
             "username": "root",
             "password": "1234",
