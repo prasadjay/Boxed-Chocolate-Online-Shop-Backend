@@ -6,6 +6,8 @@ const login = require("./src/auth/login");
 const db = require("./src/database/setup");
 const item = require("./src/product/item");
 const stock = require("./src/product/stock");
+const order = require("./src/product/order");
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -26,6 +28,8 @@ app.post('/app/login', login.Login);
 //Endpoints for website UI view which needs no auth
 //Get all products endpoint
 app.get('/app/global/items', item.GetAllItems);
+//Order product
+app.post('/app/global/order', order.PlaceOrder);
 
 //Endponts for Sellers on Items
 app.get('/app/item/:itemId', item.GetItemByID); //Get my item by id

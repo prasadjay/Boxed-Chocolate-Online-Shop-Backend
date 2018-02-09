@@ -62,6 +62,35 @@ const stock = dbCon.define('stock', {
     active: {type:Sequelize.BOOLEAN, defaultValue:true}
 })
 
+const order = dbCon.define('order', {
+    orderId: { type: Sequelize.INTEGER, primaryKey:true, autoIncrement: true },
+    itemId:{
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+            model: item,
+            key: 'itemId',
+            deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
+        }
+    },
+    stockId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+            model: stock,
+            key: 'stockId',
+            deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
+        }
+    },
+    noOfUnits: { type: Sequelize.INTEGER, allowNull: false },
+    customerName: { type: Sequelize.STRING, allowNull: false },
+    customerAddress: { type: Sequelize.STRING, allowNull: false },
+    customerPhone: { type: Sequelize.STRING, allowNull: false },
+    customerEmail: { type: Sequelize.STRING, allowNull: false },
+    subTotal: { type: Sequelize.DECIMAL(10, 2), allowNull: false }
+})
+
 module.exports.user = user;
 module.exports.item = item;
 module.exports.stock = stock;
+module.exports.order = order;
