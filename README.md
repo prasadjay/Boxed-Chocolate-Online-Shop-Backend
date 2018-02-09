@@ -1,6 +1,8 @@
 # Boxed-Chocolate-Online-Shop-Backend
 Backend modules for Boxed Chocolate Online Shop
 
+Open terminal and use "node app.js" to run the program.
+
 This app uses OAuth specifications to login and API authentication.
 To change JWT token sign key change "signingKey" property inside "/config/default.js" file.
 To change how much time a session should be valid change "maxSessionTime" property inside "/config/default.js" file.
