@@ -17,12 +17,15 @@
   },
   "homepage": "https://github.com/prasadjay/Boxed-Chocolate-Online-Shop-Backend#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
     "config": "^1.29.4",
     "express": "^4.16.2",
     "mysql2": "^1.5.2",
     "njwt": "^0.4.0",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
+    "regex-email": "^1.0.2",
     "sequelize": "^4.33.1"
   }
 }
