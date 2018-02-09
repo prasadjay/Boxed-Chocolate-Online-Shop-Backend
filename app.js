@@ -41,8 +41,15 @@ app.get('/app/stock/:stockId', stock.GetStockByID); //Get my Stock by id
 app.get('/app/stocks/all', stock.GetMyAllStocks); //Get my all Stocks
 app.get('/app/stocks/active', stock.GetMyActiveStocks); //Get all my active Stocks
 app.get('/app/stocks/inactive', stock.GetMyInactiveStocks) //Get all my inactive
+app.get('/app/stock/expirein/:stockId', stock.GetStockByID); //Get my Stock by id
 app.post('/app/stock', stock.AddStock); //add Stocks.. payload can be one object or array of objects
 app.put('/app/stock', stock.UpdateStock); //update Stocks.. payload can be one object or array of objects
 app.delete('/app/stock/:stockId', stock.DeleteStock); // delete Stock by id
+//Get sellers expire stocks by time
+app.get('/app/stock/checkexpire/day/:no', stock.GetStocksExpireInDays);
+app.get('/app/stock/checkexpire/week/:no', stock.GetStocksExpireInWeeks);
+app.get('/app/stock/checkexpire/month/:no', stock.GetStocksExpireInMonths);
+
+
 
 app.listen(3000);

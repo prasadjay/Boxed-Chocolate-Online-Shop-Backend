@@ -3,6 +3,7 @@ const dbModels = require("./../database/models");
 const response = require("./../common/response");
 const Promise = require('bluebird');
 const Sequelize = require('sequelize');
+const moment = require('moment');
 
 module.exports.AddStock = (req, res) => {
     auth.ValidateJWT(req).then((data) => {
@@ -156,6 +157,84 @@ module.exports.DeleteStock = (req, res) => {
             }
         }).then((data) => {
             res.send(response.Success("Deleting Stocks successfull.", data));
+        }).catch((err) => {
+            res.status(400);
+            res.send(response.Error(err.message, err));
+        })
+
+    }).catch((err) => {
+        res.status(400);
+        res.send(response.Error(err.message, err.data));
+    });
+}
+
+module.exports.GetStocksExpireInWeeks = (req, res) => {
+    auth.ValidateJWT(req).then((data) => {
+        let user = data.data.body;
+        let no = req.params.no;
+        let nowDate = Date.now();
+        let newDate = moment(nowDate).add(no, 'week');
+
+        dbModels.stock.findAll({
+            where: {
+                expireAt: {
+                    [Sequelize.Op.lt]: newDate
+                }
+            }
+        }).then((data) => {
+            res.send(response.Success("Fetching expirey Stocks in number of weeks successfull.", data));
+        }).catch((err) => {
+            res.status(400);
+            res.send(response.Error(err.message, err));
+        })
+
+    }).catch((err) => {
+        res.status(400);
+        res.send(response.Error(err.message, err.data));
+    });
+}
+
+module.exports.GetStocksExpireInMonths = (req, res) => {
+    auth.ValidateJWT(req).then((data) => {
+        let user = data.data.body;
+        let no = req.params.no;
+        let nowDate = Date.now();
+        let newDate = moment(nowDate).add(no, 'month');
+
+        dbModels.stock.findAll({
+            where: {
+                expireAt: {
+                    [Sequelize.Op.lt]: newDate
+                }
+            }
+        }).then((data) => {
+            res.send(response.Success("Fetching expirey Stocks in number of months successfull.", data));
+        }).catch((err) => {
+            res.status(400);
+            res.send(response.Error(err.message, err));
+        })
+
+    }).catch((err) => {
+        res.status(400);
+        res.send(response.Error(err.message, err.data));
+    });
+}
+
+module.exports.GetStocksExpireInDays = (req, res) => {
+    auth.ValidateJWT(req).then((data) => {
+        let user = data.data.body;
+        let no = req.params.no;
+        let nowDate = Date.now();
+        let newDate = moment(nowDate).add(no, 'day');
+
+        dbModels.stock.findAll({
+            where: {
+                expireAt: {
+                    [Sequelize.Op.lt]: newDate
+                }
+            }
+        }).then((data) => {
+            res.send(response.Success("Fetching expirey Stocks in number of days successfull.", data));
         }).catch((err) => {
             res.status(400);
             res.send(response.Error(err.message, err));
