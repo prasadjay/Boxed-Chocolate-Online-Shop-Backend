@@ -5,7 +5,7 @@ const register = require("./src/auth/register");
 const login = require("./src/auth/login");
 const db = require("./src/database/setup");
 const item = require("./src/product/item");
-
+const stock = require("./src/product/stock");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -35,5 +35,14 @@ app.get('/app/items/inactive', item.GetMyInactiveItems) //Get all my inactive
 app.post('/app/item', item.AddItem); //add items.. payload can be one object or array of objects
 app.put('/app/item', item.UpdateItem); //update items.. payload can be one object or array of objects
 app.delete('/app/item/:itemId', item.DeleteItem); // delete item by id
+
+//Endponts for Sellers on Stocks
+app.get('/app/stock/:stockId', stock.GetStockByID); //Get my Stock by id
+app.get('/app/stocks/all', stock.GetMyAllStocks); //Get my all Stocks
+app.get('/app/stocks/active', stock.GetMyActiveStocks); //Get all my active Stocks
+app.get('/app/stocks/inactive', stock.GetMyInactiveStocks) //Get all my inactive
+app.post('/app/stock', stock.AddStock); //add Stocks.. payload can be one object or array of objects
+app.put('/app/stock', stock.UpdateStock); //update Stocks.. payload can be one object or array of objects
+app.delete('/app/stock/:stockId', stock.DeleteStock); // delete Stock by id
 
 app.listen(3000);

@@ -47,8 +47,16 @@ const stock = dbCon.define('stock', {
             deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
         }
     },
+    user: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        references: {
+            model: user,
+            key: 'email',
+            deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
+        }
+    },
     noOfUnits: { type: Sequelize.INTEGER, allowNull: false },
-    unitPrice: { type: Sequelize.DECIMAL, allowNull: false},
     expireAt: { type: Sequelize.DATE},
     shipBestBefore: { type: Sequelize.ENUM('any','week', 'month')}, // when will max shippable timeframe expire.. if any ignores and only wont ship after expiring. week will stop shipping a week before expiry date.
     active: {type:Sequelize.BOOLEAN, defaultValue:true}
