@@ -1,0 +1,752 @@
+{
+	"id": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+	"name": "CakeShop-PrasadJayashanka",
+	"description": "",
+	"order": [
+		"b5ecf5f4-6c46-c22a-084c-37176bd29880",
+		"45b4bec0-4102-30c6-bbdf-1e5c1eaea6ea",
+		"a60acc8d-623c-9ed7-5b6d-5847ade5c368",
+		"7d2709bf-bcf4-880a-1ee8-16a268426c4b",
+		"cfbb761d-d5c1-37db-f424-2e710848bd81",
+		"57583468-bcaa-78eb-02c3-ff92d33cef34",
+		"bc1da148-e30e-bb80-67cc-cb95aee1d587",
+		"50eee30b-5fd6-d464-0c3f-dd2617348acf",
+		"9b8ff735-45b7-e23e-7177-396f7e14eb28",
+		"c4735738-c1f3-df68-a46c-6f4d3ddf4ada",
+		"d3973637-189c-0101-022c-5d0fc496e9a8",
+		"87b64027-1b2d-a268-a37a-496146c1b0a7",
+		"0bf0a6c4-88a6-e42b-a1c1-bb75ca6d330c",
+		"035573ec-efb1-759e-534c-21e438865b34",
+		"d42ea849-3786-369c-b942-fe47e3749774",
+		"b82884f6-de86-0583-ff55-ce91ce281e6a",
+		"57bb72cf-6244-5192-fb94-d6ed0ff988e0",
+		"a6cae944-56ac-f478-51d9-c883483dfc93",
+		"c1e4519b-43f5-0ea7-509d-c28bab472054",
+		"0ba14051-11b2-6145-07e6-a3c49c9ea6af"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1518170712829,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "035573ec-efb1-759e-534c-21e438865b34",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stock/checkexpire/week/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Stocks expire in Weeks No",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518188555230,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "0ba14051-11b2-6145-07e6-a3c49c9ea6af",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/app/db/setup?access_token=admin123",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "admin123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": null,
+			"dataMode": "params",
+			"name": "Setup Database",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518196721897,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "0bf0a6c4-88a6-e42b-a1c1-bb75ca6d330c",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stocks/inactive",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My inactive Stocks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518186060893,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "45b4bec0-4102-30c6-bbdf-1e5c1eaea6ea",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518172868640,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"user\":\"prasadacicts@gmail.com\",\n    \"password\":\"123\"\n}"
+		},
+		{
+			"id": "50eee30b-5fd6-d464-0c3f-dd2617348acf",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/item/2666",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Delete my item",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518183972814,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "57583468-bcaa-78eb-02c3-ff92d33cef34",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/items/active",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My active Items",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518183524217,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "57bb72cf-6244-5192-fb94-d6ed0ff988e0",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/global/order",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Place Order",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518195846085,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\": 1,\r\n    \"noOfUnits\": 5,\r\n    \"customerName\": \"John Doe\",\r\n    \"customerAddress\": \"45/a, hill street, kandy\",\r\n    \"customerPhone\" : \"08167446581\",\r\n    \"customerEmail\" : \"customer@gmail.com\"\r\n}\r\n"
+		},
+		{
+			"id": "7d2709bf-bcf4-880a-1ee8-16a268426c4b",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/item",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518183147144,
+			"name": "Update Item",
+			"description": "",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "87b64027-1b2d-a268-a37a-496146c1b0a7",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stocks/all",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My all Stocks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518186042728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "9b8ff735-45b7-e23e-7177-396f7e14eb28",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stock",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518185914949,
+			"name": "Add Stock Item",
+			"description": "",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"responses": [],
+			"rawModeData": "[{\r\n    \"itemId\": 1,\r\n    \"noOfUnits\": 444,\r\n    \"expireAt\": \"2020-10-09T13:21:11.000Z\",\r\n    \"shipBestBefore\": \"month\"\r\n},\r\n{\r\n    \"itemId\": 1,\r\n    \"noOfUnits\": 333,\r\n    \"expireAt\": \"2020-10-09T13:21:11.000Z\",\r\n    \"shipBestBefore\": \"week\"\r\n},\r\n{\r\n    \"itemId\": 3,\r\n    \"noOfUnits\": 222,\r\n    \"expireAt\": \"2020-10-09T13:21:11.000Z\",\r\n    \"shipBestBefore\": \"any\"\r\n}\r\n]"
+		},
+		{
+			"id": "a60acc8d-623c-9ed7-5b6d-5847ade5c368",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/item",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518185745696,
+			"name": "Add Item",
+			"description": "",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"responses": [],
+			"rawModeData": "[\r\n\t{\r\n    \"name\": \"Super Crunchy\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lanka\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n    }\r\n]"
+		},
+		{
+			"id": "a6cae944-56ac-f478-51d9-c883483dfc93",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/global/order",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get All Orders",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518195887973,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\": 1,\r\n    \"noOfUnits\": 5,\r\n    \"customerName\": \"John Doe\",\r\n    \"customerAddress\": \"45/a, hill street, kandy\",\r\n    \"customerPhone\" : \"08167446581\",\r\n    \"customerEmail\" : \"customer@gmail.com\"\r\n}\r\n"
+		},
+		{
+			"id": "b5ecf5f4-6c46-c22a-084c-37176bd29880",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518170724222,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"prasadacicts@gmail.com\",\n    \"name\":\"Prasad Jayashanka\",\n    \"passportno\":\"123\",\n    \"country\":\"SL\",\n    \"contactno\":\"0716336491\",\n    \"username\":\"jay\",\n    \"password\":\"123\"\n}"
+		},
+		{
+			"id": "b82884f6-de86-0583-ff55-ce91ce281e6a",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stock/checkexpire/day/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Stocks expire in Days No",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518189071103,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "bc1da148-e30e-bb80-67cc-cb95aee1d587",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/items/all",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My all Items",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518183539976,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "c1e4519b-43f5-0ea7-509d-c28bab472054",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/global/order/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Order By ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518195908810,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\": 1,\r\n    \"noOfUnits\": 5,\r\n    \"customerName\": \"John Doe\",\r\n    \"customerAddress\": \"45/a, hill street, kandy\",\r\n    \"customerPhone\" : \"08167446581\",\r\n    \"customerEmail\" : \"customer@gmail.com\"\r\n}\r\n"
+		},
+		{
+			"id": "c4735738-c1f3-df68-a46c-6f4d3ddf4ada",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/global/order",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1518192533543,
+			"name": "Update Stock Item",
+			"description": "",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"itemId\": 1,\r\n    \"noOfUnits\": 5,\r\n    \"customerName\": \"John Doe\",\r\n    \"customerAddress\": \"45/a, hill street, kandy\",\r\n    \"customerPhone\" : \"08167446581\",\r\n    \"customerEmail\" : \"customer@gmail.com\"\r\n}\r\n"
+		},
+		{
+			"id": "cfbb761d-d5c1-37db-f424-2e710848bd81",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/items/inactive",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My Inactive Items",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518183503697,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "d3973637-189c-0101-022c-5d0fc496e9a8",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stocks/active",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get My active Stocks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518186030450,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		},
+		{
+			"id": "d42ea849-3786-369c-b942-fe47e3749774",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYm94ZWRjaG9jb2xhdGVvbmxpbmUuY29tLyIsInN1YiI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJuYW1lIjoiUHJhc2FkIEpheWFzaGFua2EiLCJjb3VudHJ5IjoiU0wiLCJjb250YWN0bm8iOiIwNzE2MzM2NDkxIiwidXNlcm5hbWUiOiJqYXkiLCJlbWFpbCI6InByYXNhZGFjaWN0c0BnbWFpbC5jb20iLCJwYXNzcG9ydG5vIjoiMTIzIiwianRpIjoiNjc1OTE2YWUtYWM2OC00NWU5LTliY2EtYWU1ZWE1YTdlNWQxIiwiaWF0IjoxNTE4MTc1NTE5LCJleHAiOjE1MTgyMTg3MjR9.15V-uuTrMQ4SClwEUl_rLVDVkZjEbAFD23CNqQ5AiIA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/app/stock/checkexpire/month/30",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fece3ca9-80d7-14ba-64a2-37baf918933e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Stocks expire in Months No",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1518189008963,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"itemId\" : 1,\r\n    \"name\": \"Super Crunchy Super\",\r\n    \"brand\": \"Kandos\",\r\n    \"country\": \"Sri Lankaa\",\r\n    \"flavor\": \"Milk and peanuts\",\r\n    \"cocoaContent\": 10.25,\r\n    \"alcoholContent\": 0.001,\r\n    \"weight\": 100,\r\n    \"unitPrice\": 10.25,\r\n    \"active\": false,\r\n    \"imageUrl\": \"http://i.dailymail.co.uk/i/pix/2017/05/23/20/07225318000005DC-0-Experts_at_Harvard_Medical_School_found_a_regular_treat_slashes_-a-32_1495567597906.jpg\"\r\n}"
+		}
+	]
+}
